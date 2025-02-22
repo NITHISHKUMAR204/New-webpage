@@ -1,0 +1,200 @@
+:root{
+    --primmary:#F70776;
+    --secondary:#180161;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#home button{
+    color:white;
+    font-weight:normal;
+    background-color: var(--secondary);
+
+}
+#home button:hover{
+    color:white;
+    font-weight: normal;
+    background-color: var(--primmary);
+
+}
+
+.navbar a{
+    font-size: 17px;
+    font-weight: normal;
+    color:var(--primmary);
+
+}
+.nav-link:hover{
+    border-bottom: 2px solid var(--primmary);
+    font-weight: bold;
+    color:var(--secondary);
+    transition:.2s;
+}
+
+h1 span{
+   
+    background-image: linear-gradient(var(--primmary), var(--secondary)70%);
+    color: transparent;
+    background-clip: text;
+
+    font-weight:bold;
+ 
+}
+
+.color{
+    color:var(--primmary);
+}
+#about button{
+    color:white;
+    border: 0px;
+    font-weight:normal;
+    background-color: var(--secondary);
+
+}
+#about button:hover{
+    color:white;
+    font-weight: normal;
+    background-color: var(--primmary);
+
+}
+#about{
+    height: 80vh;
+}
+
+
+p{
+    font-size: 18px;
+
+}
+#navbar{
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    
+
+}
+#plan li{
+    display: block;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+#plan li i{
+    margin-right: 10px;
+    font-size: 15px;
+    color:var(--secondary) ;
+}
+#plan .button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plan button{
+    color:white;
+    border: 0px;
+    font-weight:normal;
+    background-color: var(--secondary);
+
+}
+#plan button:hover{
+    color:white;
+    font-weight: normal;
+    background-color: var(--primmary);
+
+}
+#plan .card{
+    border: 1px solid var(--secondary);
+}
+#home .row{
+   
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box{
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.name{
+    display: flex;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#contact button{
+    color:white;
+    border: 0px;
+    font-weight:normal;
+    background-color: var(--secondary);
+
+}
+#contact button:hover{
+    color:white;
+    font-weight: normal;
+    background-color: var(--primmary);
+
+}
+footer{
+    background-color:var(--secondary) ;
+    color: white;
+}
+footer li a{
+    color:var(--primmary);
+    margin-bottom: 7px;
+    text-decoration: none;
+
+
+}
+footer li {
+    font-size: 18px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+footer h1{
+    background-image: linear-gradient(var(--primmary), var(--secondary));
+    color: transparent;
+    background-clip: text;
+
+    font-weight:bold;
+
+}
+footer h3{
+    color: var(--primmary);
+}
+footer li a:hover{
+    color: white;
+}
+.footerbottom p{
+    background-color:var(--primmary);
+    color: var(--secondary);
+    font-size: 13px;
+}
+#service .card button{
+    color:white;
+    border: 0px;
+    font-weight:normal;
+    background-color: var(--secondary);
+
+}
+#service .card button:hover{
+    color:white;
+    font-weight: normal;
+    background-color: var(--primmary);
+
+}
+
+
